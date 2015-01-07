@@ -15,13 +15,6 @@
 
 module Xapian
 	module Rack
-		module VERSION #:nodoc:
-			MAJOR = 1
-			MINOR = 2
-			TINY  = 3
-			REV   = 3
-			
-			STRING = [MAJOR, MINOR, TINY, REV].join('.')
-		end
+		VERSION = "1.2.19.1"
 	end
 end
